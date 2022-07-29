@@ -1,0 +1,96 @@
+body {
+	background-color: #5E17EB;
+}
+ 
+#home {
+	width: 100%;
+ }
+
+#nav-home {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+}
+
+#nav-itens-nav-home a {
+	font-size: 1.5rem;
+	font-family: 'Stoke', serif;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+
+}
+
+#nav-itens-nav-home a:hover {
+	color: #2EB2FC;
+}
+
+#nav-itens-nav-home th {
+	width: calc(100% / 4);
+}
+
+#home-img {
+	float: right;
+	margin-top: 7%;
+	margin-right: 10%;
+}
+
+#home-img img {
+	width: 700px;
+}
+
+.home-text {
+	float: left;
+	margin-top: 9%;
+	width: 33%;
+	margin-left: 10%;
+}
+
+.home-text-1 {
+	width: 67%;
+}
+
+#text-1 {
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 26px;
+	color: #FFF;
+}
+
+.home-text-2 {
+	width: 67%;
+	margin-top: 40px;
+	text-align: center;
+}
+
+#text-2 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 80px;
+	color: #FFF;
+}
+
+.home-text-3 {
+	width: 67%;
+	margin-top: 40px;
+	text-align: center;
+}
+
+#text-3 {
+	font-family: 'Caveat', cursive;
+	font-size: 50px;
+	color: #FFF;
+}
+
+#p-color-1 {
+	color: #F198CA;
+}
+
+#p-color-2 {
+	color: #42DAFD;
+}
+
+/*#home-img img{
+	position: absolute;
+	width: 50%;
+	max-height: 100%;
+}*/
+

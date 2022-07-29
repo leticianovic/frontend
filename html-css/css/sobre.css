@@ -1,0 +1,32 @@
+#sec-content {
+	margin: 60px 60px 0;
+    justify-content: space-between;
+}
+
+#sec-art-content {
+    position: relative;
+	width: 100%;
+	padding: 20px;
+}
+
+.sec-art-title h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.div-content {
+    width: 60%;
+    margin: 60px auto;
+    float: left;
+}
+
+.sec-art-sobre p {
+    width: auto;
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+}
+
+.sec-art-img {
+    float: right;
+}

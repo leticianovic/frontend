@@ -1,0 +1,101 @@
+.background {
+	background-image: url(../imagens/fundo-cafe.jpg);
+	width: 100%;
+    height: 90vh;
+    background-repeat: repeat;
+	position:absolute
+}
+
+.convite {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.div-title {
+	width: 100%;
+	margin-top: 80px;
+}
+
+.div-subtitle {
+	width: 80%;
+	margin-left: 60px;
+	margin-top: 50px;
+}
+
+#title {
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#subtitle {
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+.cafe {
+	margin-top: 50px;
+	margin-left: 190px;
+}
+
+.cafe img {
+	max-height: 290px;
+}
+
+.form-contato {
+	width: 50%;
+	float: right;
+	margin-top: 15%;
+}
+
+.form-email {
+	margin-top: 15px;
+}
+
+.form-msg {
+	margin-top: 20px;
+}
+
+.form-name, .form-email, .form-msg {
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
+}
+
+input {
+	border-radius: 10px;
+}
+
+.enviar input {
+	margin-top: 20px;
+}
+
+.whats {
+	margin-top: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.whats p {
+	font-family: 'Kaushan Script', cursive;
+	position: relative;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+iframe {
+    width: 100%;
+}
+
+.maps {
+    width: 100%;
+}

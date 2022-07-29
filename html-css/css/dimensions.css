@@ -1,0 +1,536 @@
+/* GERAL - TABLET */
+@media (max-width: 768px){
+	.header {
+        justify-content: center;
+    }    
+}
+
+@media (max-width: 768px){
+	.logo img {
+		max-height: 30px;
+	}
+}
+
+@media (max-width: 768px){
+	.tb-navegacao a {
+		font-size: 10px;
+		margin: 0 20px 0;
+	}
+}
+
+/* sobre.css (Tablet)*/
+@media (max-width: 768px){
+    #sec-content {
+        margin: 0 20px 0;
+    }
+}
+
+@media (max-width: 768px){
+    #sec-art-content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .div-content {
+        margin: 20px 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .sec-art-img {
+        float: left;
+    }
+}
+
+@media (max-width: 768px){
+	.sec-art-img img{
+		max-width: 230px;
+    	height: auto;
+	}
+}
+
+@media (max-width: 768px){
+    .footer-copyright{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 768px){
+    .social img{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 768px){
+    .social-insta, .social-face, .social-whats{
+        margin-left: 10px;
+    }
+}
+
+/* tutorial.css (Tablet)*/
+@media (max-width: 768px){
+    #div-container{
+        margin: 20px 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .title{
+        font-size: 20px;
+        margin: 5px 0 10px 20px;
+        padding-bottom: 1px;
+    }
+}
+
+@media (max-width: 768px){
+    .tut-info-text{
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+@media (max-width: 768px){
+    .tut-info-text p{
+        width: 90%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 768px){
+    .tut-list-item{
+        padding: 8px 0;
+	    margin-left: 15px;
+    }
+}
+
+@media (max-width: 768px){
+    .tut-art-item{
+        padding-top: 24px;
+        padding-bottom: 5px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .tut-art-item img{
+        width: 80px;
+    }
+}
+
+@media (max-width: 768px){
+    .tut-art-subtitle{
+        font-size: 15px;
+        width: 100%;
+        padding-right: 0;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 768px){
+    .tut-art-timestamp{
+        font-size: 8px;
+    }
+}
+
+/* blog.css (Tablet) */
+@media (max-width: 768px){
+    #div-b-container{
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .div-b-list, .div-b-list-2, .div-b-list-3{
+        margin: 5px 5px;
+    }
+}
+
+@media (max-width: 768px){
+    .div-b-list-itens img, .div-b-list-itens-2 img, .div-b-list-itens-3 img{
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .div-b-list-itens img, .div-b-list-itens-2 img, .div-b-list-itens-3 img{
+        width: 150px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .div-b-list-2{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 768px){
+    .div-b-list-3{
+        padding: 5px;
+        flex-direction: column;
+    }
+}
+
+/* contato.css (Tablet) */
+@media (max-width: 768px){
+    .convite{
+        float: right;
+    }
+}
+
+@media (max-width: 768px){
+    .div-title {
+	width: 90%;
+	margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    .div-subtitle {
+	width: 70%;
+	margin-left: 30px;
+	margin-top: 25px;
+    }
+}
+
+@media (max-width: 768px){
+    #title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    #subtitle{
+        font-size: 15px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px){
+    .cafe {
+	    margin-top: 25px;
+	    margin-left: 90px;
+    }
+}
+
+@media (max-width: 768px){
+    .cafe img {
+	    max-height: 100px;
+        float: right;
+    }
+}
+
+@media (max-width: 768px){
+    iframe{
+        width: 100%;
+        height: 220px;
+    }
+}
+
+/* index.css (Tablet) */
+@media (max-width: 768px){
+    #home-img img {
+        width: 300px;
+        margin-top: 35%;
+    }
+}
+
+@media (max-width: 768px){
+    #text-1 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 768px){
+    #text-2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    #text-3 {
+        font-size: 30px;
+    }
+}
+
+/* GERAL - MOBILE FIRST */
+@media (max-width: 425px){
+	.header {
+        justify-content: center;
+    }    
+}
+
+@media (max-width: 425px){
+	.logo img {
+		max-height: 30px;
+	}
+}
+
+@media (max-width: 425px){
+	.tb-navegacao a {
+		font-size: 10px;
+		margin: 0 20px 0;
+	}
+}
+
+@media (max-width: 425px){
+    .footer-copyright{
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 425px){
+    .social img{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 425px){
+    .social-insta, .social-face, .social-whats{
+        margin-left: 10px;
+    }
+}
+
+/* sobre.css (Mobile)*/
+@media (max-width: 425px){
+    #sec-content {
+        margin: 0 20px 0;
+    }
+}
+
+@media (max-width: 425px){
+    #sec-art-content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 425px){
+    .div-content {
+        margin: 20px 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+    .sec-art-title h1{
+        width: 100%;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .sec-art-img {
+        float: left;
+    }
+}
+
+@media (max-width: 425px){
+	.sec-art-img img{
+		max-width: 200px;
+    	height: auto;
+	}
+}
+
+/* tutorial.css (Mobile)*/
+@media (max-width: 425px){
+    #div-container{
+        margin: 20px 20px;
+    }
+}
+
+@media (max-width: 425px){
+    .title{
+        font-size: 20px;
+        margin: 5px 0 10px 20px;
+        padding-bottom: 1px;
+    }
+}
+
+@media (max-width: 425px){
+    .tut-info-text{
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+@media (max-width: 425px){
+    .tut-info-text p{
+        width: 90%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 425px){
+    .tut-list-item{
+        padding: 8px 0;
+	    margin-left: 15px;
+    }
+}
+
+@media (max-width: 425px){
+    .tut-art-item{
+        padding-top: 24px;
+        padding-bottom: 5px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 425px){
+    .tut-art-item img{
+        width: 64px;
+    }
+}
+
+@media (max-width: 425px){
+    .tut-art-subtitle{
+        font-size: 10px;
+        width: 90%;
+        padding-right: 0;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 425px){
+    .tut-art-timestamp{
+        font-size: 5px;
+    }
+}
+
+/* blog.css (Mobile) */
+@media (max-width: 425px){
+    #div-b-container{
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .div-b-list, .div-b-list-2, .div-b-list-3{
+        margin: 5px 5px;
+    }
+}
+
+@media (max-width: 425px){
+    .div-b-list-itens img, .div-b-list-itens-2 img, .div-b-list-itens-3 img{
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .div-b-list-itens img, .div-b-list-itens-2 img, .div-b-list-itens-3 img{
+        width: 64px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 425px){
+    .div-b-list-2{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 425px){
+    .div-b-list-3{
+        padding: 5px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px){
+    .div-b-list-itens-subtitle{
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+/* contato.css (Mobile) */
+@media (max-width: 425px){
+    .convite{
+        float: right;
+    }
+}
+
+@media (max-width: 425px){
+    .div-title {
+	width: 90%;
+	margin-top: 40px;
+    }
+}
+
+@media (max-width: 425px){
+    .div-subtitle {
+	width: 70%;
+	margin-left: 30px;
+	margin-top: 25px;
+    }
+}
+
+@media (max-width: 425px){
+    #title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 425px){
+    #subtitle{
+        font-size: 15px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 425px){
+    .cafe {
+	    margin-top: 25px;
+	    margin-left: 90px;
+    }
+}
+
+@media (max-width: 425px){
+    .cafe img {
+	    max-height: 100px;
+        float: right;
+    }
+}
+
+@media (max-width: 425px){
+    iframe{
+        width: 100%;
+        height: 220px;
+    }
+}
+
+/* index.css (Mobile) */
+@media (max-width: 425px){
+    #nav-itens-nav-home a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px){
+    #home-img img {
+        width: 100px;
+        margin-top: 90%;
+    }
+}
+
+@media (max-width: 425px){
+    #text-1 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px){
+    #text-2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 425px){
+    #text-3 {
+        font-size: 20px;
+    }
+}

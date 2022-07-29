@@ -1,0 +1,82 @@
+#div-b-container {
+    width: auto;
+    margin: 40px 20px;
+    overflow: auto;
+    border-radius: 15px;
+    background-color: rgb(177, 161, 180);
+}
+
+.div-b-list, .div-b-list-2 {
+    margin-top: 10px;
+}
+
+.div-b-list-itens, .div-b-list-itens-2, .div-b-list-itens-3 {
+    position: relative;
+}
+
+.div-b-list-itens-2 {
+    float: left;
+}
+
+.div-b-list-itens img, .div-b-list-itens-2 img, .div-b-list-itens-3 img {
+    border-radius: 20px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-b-list-itens img {
+	width: 400px;
+    display: block;
+    padding-top: 10px;
+}
+
+.div-b-list-itens-2 img {
+	width: 350px;
+    display: flex; 
+}
+
+.div-b-list-itens-3 img {
+	width: 250px;
+    display: flex;
+}
+
+.div-b-list, .div-b-list-2, .div-b-list-3 {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.div-b-list {
+    width: 40%;
+    float: left;
+}
+
+.div-b-list-2 {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.div-b-list-3 {
+    padding: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.div-b-list-itens-subtitle {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Stoke', serif;
+    color: #2A86B4;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
