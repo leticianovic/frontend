@@ -29,7 +29,7 @@
 
 #### 2. Mercado de Trabalho
 ##### Flexivel
- - Precisa ter um bom computador e internet. Para que voce consiga rodar o seu codigo, baixar programas que serão importantes para te ajudar com o codigo. 
+ - Precisa ter um bom computador e internet. Para que voce consiga rodar o seu código, baixar programas que serão importantes para te ajudar com o codigo. 
  - Nem sempre precia estar presente com o cliente para fazer um projeto, pode se feito de casa ou ate mesmo estando em outro lugar ou outro país.
 ##### Negócio
  - A tecnologia é a essencia de diversos negocios. A tecnologia ou é o centro do negocio e não um suporte para o mesmo. Ou é um apoio ao negocio, ou seja um projeto que depende da tecnologia para ser entregue.
