@@ -36,7 +36,7 @@
 ##### Demanda
  - Há uma alta demanda por causa da busca por inovação para os negocios.
 ##### Essência
- - Constante busca por qualidade, comprometimento com as entregas e sempre ter a vontade de entregar o produto com alta qualidade.
+ - Constante busca por qualidade, comprometimento com as entregas e sempre ter a vontade de entregar o produto com alta qualidade. 
 
 ### Módulo 10 - Git
  - Conceitos de versionamento
