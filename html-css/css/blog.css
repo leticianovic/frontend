@@ -39,7 +39,9 @@
 
 .div-b-list-itens-3 img {
 	width: 250px;
+    height: 150px;
     display: flex;
+    margin-left: 10px;
 }
 
 .div-b-list, .div-b-list-2, .div-b-list-3 {
@@ -60,6 +62,7 @@
 }
 
 .div-b-list-3 {
+    margin-top: 108px;
     padding: 23px;
     display: flex;
     align-items: center;
