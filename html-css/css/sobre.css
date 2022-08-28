@@ -1,33 +1,32 @@
-#sec-content {
-	margin: 60px 60px 0;
-    justify-content: space-between;
+body {
+    height: 100vh;
 }
 
-#sec-art-content {
-    position: relative;
-	width: 100%;
-	padding: 20px;
+#art-content {
+    margin: 40px;
+    width: auto;
 }
 
-.div-content {
-    width: 60%;
-    margin: 40px auto;
+.art-div-content {
+    width: 65%;
+    margin: 20px auto;
     float: left;
 }
 
-.sec-art-title h1 {
+.art-div-content-title h1 {
     font-size: 3rem;
     margin-bottom: 30px;
     font-family: 'Rubik Moonrocks', cursive;
 }
 
-.sec-art-sobre p {
+.art-div-content-sobre p {
     width: auto;
     text-align: justify;
     font-family: 'Caveat', cursive;
     font-size: 1.5rem;
 }
 
-.sec-art-img {
+.art-div-content-img {
     float: right;
+    margin: 20px auto;
 }
