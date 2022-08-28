@@ -9,22 +9,23 @@
 	padding: 20px;
 }
 
-.sec-art-title h1 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    font-family: 'Rubik Moonrocks', cursive;
-}
-
 .div-content {
     width: 60%;
-    margin: 60px auto;
+    margin: 40px auto;
     float: left;
+}
+
+.sec-art-title h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-family: 'Rubik Moonrocks', cursive;
 }
 
 .sec-art-sobre p {
     width: auto;
     text-align: justify;
     font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
 }
 
 .sec-art-img {
