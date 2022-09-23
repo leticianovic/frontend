@@ -112,7 +112,6 @@ section article {
     display: block;
     float: left;
     width: 70%;
-    
 }
 
 footer {
@@ -131,4 +130,8 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
+}
+
+.cog-branding .cog-branding--minimal a {
+    visibility: hidden !important;
 }
