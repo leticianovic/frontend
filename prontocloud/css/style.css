@@ -64,6 +64,16 @@ p {
     color: #333;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    background-color: #B8C8D6;
+    width: 100%;
+}
+
 ol {
     margin-left: 30px;
 }
@@ -134,4 +144,17 @@ footer small {
 
 .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal, html .cog-abuse, :root:root:root:root:root .cog-abuse {
     display: none;
+}
+
+html .cog-form, :root:root:root:root:root .cog-form {
+    margin: 0 !important;
+}
+
+.cog-form__content {
+    background-color: #B8C8D6 !important;
+}
+
+.el-input__inner {
+    border: 4px double #254159 !important;
+    box-shadow: 5px 5px grey !important;
 }
