@@ -132,6 +132,6 @@ footer small {
     display: block;
 }
 
-.cog-branding .cog-branding--minimal a {
-    visibility: hidden !important;
+.cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal, html .cog-abuse, :root:root:root:root:root .cog-abuse {
+    display: none;
 }
