@@ -18,7 +18,7 @@ body {
     display: block;
     float: left;
     padding: 20px;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ p {
     margin-bottom: 10px;
     text-align: justify;
     line-height: 1.4;
-    color: #333;
+    color: #333;  
 }
 
 img {
@@ -81,6 +81,8 @@ ol {
 ol li {
     font-size: 1.4rem;
     color: #454545;
+    text-align: justify;
+    margin-right: 25px;
 }
 
 section {
@@ -157,4 +159,31 @@ html .cog-form, :root:root:root:root:root .cog-form {
 .el-input__inner {
     border: 4px double #254159 !important;
     box-shadow: 5px 5px grey !important;
+}
+
+.cognito {
+    height: 350px !important;
+}
+
+html .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-button--primary {
+    background-color: #415f79 !important;
+    border: #415f79 !important;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 426px) {
+    section nav, section article {
+        width: 95%;
+    }
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    footer {
+        position: relative;
+    }
+    #tenho-interesse {
+        height: auto;
+        overflow-y: scroll;
+    }
 }
