@@ -17,7 +17,8 @@ body {
 .container {
     display: block;
     float: left;
-    padding: 20px;
+    padding: 0;
+    max-width: 100%;
     width: 90%;
     margin: 0 auto;
 }
@@ -70,7 +71,7 @@ img {
 }
 
 #tenho-interesse {
-    background-color: #B8C8D6;
+    background-color: #FFF;
     width: 100%;
 }
 
@@ -153,7 +154,7 @@ html .cog-form, :root:root:root:root:root .cog-form {
 }
 
 .cog-form__content {
-    background-color: #B8C8D6 !important;
+    background-color: #FFF !important;
 }
 
 .el-input__inner {
@@ -166,9 +167,92 @@ html .cog-form, :root:root:root:root:root .cog-form {
 }
 
 html .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-button--primary {
-    background-color: #415f79 !important;
-    border: #415f79 !important;
+    background-color: #128EF3 !important;
+    border: #128EF3!important;
     margin-bottom: 5px;
+}
+
+#banner {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
+.container-legenda {
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0;
+}
+
+.legenda {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.legenda h5, .legenda h4 {
+    color: #254159;
+    line-height: 150%;
+}
+
+.button-cta {
+    border-radius: 25px;
+    display: block;
+    background-color: #128ef3;
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px #454545 ;
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 20px auto;
+    float: right;
+}
+
+#saiba-mais {
+    background-color: #EAEFF3;
+    padding: 40px 10px;
+}
+
+#saiba-mais p, #saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+#perguntas-frequentes {
+    background-color: #B8C8D6;
+}
+
+#perguntas-frequentes .button-cta {
+    margin-right: 90px;
+}
+
+dl {
+    margin: 20px 0;
+    width: 45%;
+    padding: 20px;
+}
+
+dt {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #254159;
+    margin-bottom: 5px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
 }
 
 @media (max-width: 426px) {
