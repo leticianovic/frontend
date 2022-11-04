@@ -11,14 +11,17 @@
 
 #### var
 $ `var a = 10;`
+
 $ `a;`
 
 #### const: fica com valor imutável
 $ `const b = 15`
+
 $ `b;`
 
 #### let
 $ `let c = 20;`
+
 $ `c;`
 
 // string: tipo de variavel para conjunto de caracteres
