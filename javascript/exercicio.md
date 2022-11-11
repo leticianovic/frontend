@@ -124,9 +124,11 @@
 >`a = 10;`
 >
 >`a++;`
+>
 > 11
 > 
 >  `a++;`
+>
 > 12
 
   
@@ -138,9 +140,11 @@
 >`b = 10;`
 >
 >`b--;`
+>
 > 9
 > 
 >  `b--;`
+>
 > 8
 
   
@@ -248,7 +252,9 @@
 #### Quantas prestações são necessárias para pagar o valor do carro com uma entrada de 3.000? Demonstre a operação.
 
 >`resultado = (valor - 3000) / prestacao;`
+>
 >  `resultado;`
+>
 > 36
 
   
@@ -257,14 +263,18 @@
 
 - Pelo que entendi do exercício é para pegar as variáveis que contenham o valor de cor:
 >  `let cores = (branco + preto + cinza + carro);`
+>
 > 'pretocinzabrancopreto'
 >
 >  `cores.length;`
+>
 > 21
 
 - Se for apenas as variáveis com nome de cor:
 >  `let cor = (branco + preto + cinza);`
+>
 >  'pretocinzabranco'
 >
 > `cor.length;`
+>
 > 16
