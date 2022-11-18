@@ -399,6 +399,14 @@ console.clear(); // limpa o terminal
 	- Rola para um determinado conjunto de coordenadas no documento.
 	> window.scrollTo() // Exemplo: window.scrollTo(0,500)
 
+### Seletores
+- Tipos de seletores: Tag, ID, Class, Name, Query
+- Callback
+- getElementById()
+- getElementsByTagName()
+- getElementsByName()
+- getElementsByClassName()
+- querySelectorAll() // #id | .class
 #### Referencias
 - DOM: https://dom.spec.whatwg.org/
 - Tecnologias JS: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript || https://developer.mozilla.org/pt-BR/docs/Web/JavaScriptJavaScript_technologies_overview
