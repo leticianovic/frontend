@@ -9,7 +9,7 @@ html {
 }
 
 .container { 
-    max-width: 2500px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -20,12 +20,12 @@ html {
     margin: 20px auto;
     width: 50%;
     border: 5px double rgb(44, 4, 59);
-    border-radius: 10px double;
+    border-radius: 10px;
     height: auto;
 }
 
 input {
-    width: 80%;
+    width: 90%;
     padding: 1rem 5rem;
     border-radius: 10px;
     font-size: 1.3rem;
@@ -40,6 +40,7 @@ h1 {
 .formulario-01-n, .formulario-02-cad {
     text-align: center;
     border: 2px solid rgb(44, 4, 59);
+    width: 80%;
 }
 
 input, button {
@@ -71,8 +72,24 @@ input, button {
     font-size: 2rem;
     text-align: center;
     padding: 2rem;
+    color: red;
+    font-weight: bold;
 }
 
 .erro {
     border-color: red;
+}
+
+/* GERAL - TABLET */
+@media (max-width: 768px){
+	.formulario-01-n, .formulario-02-cad {
+        width: 70%;
+    }    
+}
+
+/* GERAL - MOBILE FIRST */
+@media (max-width: 426px){
+	.formulario-01-n, .formulario-02-cad {
+        width: 50%;
+    }    
 }

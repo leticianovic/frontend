@@ -23,12 +23,15 @@ function aprovacao(notas) {
 }
 
 /* Formulário de envio de dados para o cálculo da média */
-document.getElementById('formulario-01').addEventListener('submit', function(evento){
+const formulario1 = document.getElementById('formulario-01');
+
+if(formulario1)
+    formulario1.addEventListener('submit', function(evento){
 
     evento.preventDefault();
     evento.stopPropagation();
 
-    if(this.classList.match(/erro/)) {
+    if( this.getAttribute('class').match(/erro/) ) {
         return false;
     }
 
