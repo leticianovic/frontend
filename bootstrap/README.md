@@ -87,14 +87,15 @@
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
  ```
  ### Rodando o pacote no seu local
+ - Verificar a versão do seu bootstrap. No meu caso a versão é a 5.3
  1. Para melhorar a performance do seu projeto, o recomendado é baixar o pacote do bootstrap e rode local: https://getbootstrap.com/docs/5.3/getting-started/download/ (É baixado um arquivo zipado: "bootstrap-5.3.0-alpha1-dist")
- 2. Para inserir o codigo do pacote, basta inserir a pasta da qual foi extraida (quando fez o download) no porjeto a qual você esta trabalhando (quando você extrai a pasta, irá vir com o nome: "bootstrap-5.3.0-alpha1-dist", você pode renomear para facilitar sua vida);
- 3. No meu caso inseri no caminho: frontend > bootstrap > projeto > bootstrap;
+ 2. Para inserir o codigo do pacote, basta inserir a pasta da qual foi extraida (quando fez o download) no projeto a qual você esta trabalhando (quando você extrai a pasta, irá vir com o nome: "bootstrap-5.3.0-alpha1-dist", você pode renomear para facilitar sua vida. Eu renomeei para "bootstrap");
+ 3. No meu caso inseri no caminho: frontend > bootstrap > projeto > **bootstrap**;
  4. Inserir o codigo css no arquivo html, na área do "head": 
  ```
  <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
  ```
- 5. Inserir o codigo no arquivo html, na área do "body":
+ 5. Inserir o codigo js no arquivo html, na área do "body":
  ```
  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
  ```
