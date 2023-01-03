@@ -99,3 +99,15 @@
  ```
  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
  ```
+## Layout | Criar layouts responsivos com bootstrap
+ - "container-fluid": Para adaptar a largura da tela
+ - "btn btn-lg": Criar botão grande 
+ - "btn-success": montar o botão de sucesso. É criado um botão verde
+
+## Elementos | Como utilizar elementos DO em páginas web
+ - Unidade: Largura da área dividido por 12
+ - ".row>.col*3": criar uma linha com 3 colunas
+ - "(li.nav-item>a)*4": Criando uma lista com 4 itens e links
+ - "img-fluid": Torna a imagem responsiva, de acordo com a largura da tela
+ - ".container>.row>.col": Criar uma div de nome conatainer com uma linha e uma coluna
+ - "button:submit.btn.btn-lg.btn-success": Criar um botao com as caracteristica de botao grande e na cor verde
