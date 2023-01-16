@@ -12,18 +12,18 @@
     <body>
 
         <header>
-            <div class="container">
+            <div class="container container-fluid">
                 
                 <div class="row">
                     <div class="col">
-                        <h1>Logo</h1>
+                        <img src="./imagens/logo.png" alt="Logo" class="img-fluid" id="logo">
                     </div>
 
-                    <div class="col">
+                    <div class="col col-md-8 col-sm-12">
                         <ul class="nav justify-content-end">
                             <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#jogos">Jogos</a></li>
                             <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                         </ul>
                     </div>
@@ -41,12 +41,13 @@
                     
                     <div class="col-md-8 col-sm-12">
                         <h2>Sobre nós</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt maiores quae vel corporis itaque numquam neque ut ex quaerat exercitationem laudantium harum tempore velit saepe natus quia, error amet voluptate.</p>
-                        <a class="btn btn-lg btn-success">Botão</a>
+                        <p class="desc">LetriKsS, fundada em 2022 é hoje uma loja virtual de games e tecnologia.</p> 
+                        <p class="desc">A nossa missão é vender por um preço mais acessível os jogos de videgames mais famosos. Trilhamos nosso próprio caminho desde 2022, quando começamos a revender jogos de videogame. Hoje, temos a sorte de poder compartilhar nossa diversão, ideias e mundos por meio de videogames e da indústria do entretenimento.</p>
+                        <a class="btn btn-sm btn-success" href="#contato">Entre em contato</a>
                     </div>
 
                     <div class="col-md-4 col-sm-12">
-                        <img src="./imagens/pexels-daniel-eliashevsky-6942359.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <img src="./imagens/605731.jpg" alt="Imagem Sobre" class="img-fluid rounded">
                     </div>
 
                 </div>
@@ -55,46 +56,83 @@
 
         </section>
 
-        <section id="produtos">
+        <section id="jogos">
             <div class="container">
                 <div class="row">
                     <div class="col">
 
-                        <h2>Produtos</h2>
+                        <h2>Jogos</h2>
 
                         <div class="card">
-                            <img src="./imagens/pexels-daniel-eliashevsky-6942359.jpg" alt="Imagem Exemplo" class="img-fluid">
+                            <img src="./imagens/crash4.avif" alt="Crash 4" class="img-fluid rounded">
                             
                             <div class="card-body">
-                                <h5 class="card-title">Lorem, ipsum dolor</h5>
+                                <h5 class="card-title">Crash Bandicoot 4: It's About Time</h5>
 
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class="card-text desc">Desenvolvido pela Toys for Bob e publicado pela Activision. É o quarto jogo da série Crash Bandicoot e um retcon dos jogos que originalmente seguiram Crash Bandicoot: Warped.</p>
 
-                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">ver produto</a>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver preços</a>
                             </div>
                         </div>
 
                         <div class="card">
-                            <img src="./imagens/pexels-daniel-eliashevsky-6942359.jpg" alt="Imagem Exemplo" class="img-fluid">
+                            <img src="./imagens/sonic.avif" alt="Sonic" class="img-fluid rounded">
                             
                             <div class="card-body">
-                                <h5 class="card-title">Lorem, ipsum dolor</h5>
+                                <h5 class="card-title">Sonic Frontiers</h5>
 
-                                <p class="card-text">Doloremque voluptate delectus autem quo nulla debitis, beatae accusantium modi unde minima.</p>
+                                <p class="card-text desc">Em Frontiers, Sonic explora as misteriosas ilhas Starfall, um arquipélago formado por seis ilhas, onde lá ele busca as esmeraldas do caos depois de se separar dos amigos.</p>
 
-                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">ver produto</a>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver preços</a>
                             </div>
                         </div>
 
                         <div class="card">
-                            <img src="./imagens/pexels-daniel-eliashevsky-6942359.jpg" alt="Imagem Exemplo" class="img-fluid">
+                            <img src="./imagens/fifa23.avif" alt="Fifa" class="img-fluid rounded">
                             
                             <div class="card-body">
-                                <h5 class="card-title">Lorem, ipsum dolor</h5>
+                                <h5 class="card-title">EA Sports Fifa 23</h5>
 
-                                <p class="card-text">Doloremque odio molestias tempore labore ad maiores repudiandae pariatur laudantium!</p>
+                                <p class="card-text desc">É um jogo eletrônico de simulação de futebol desenvolvido pela Electronic Arts. O jogo é o último a utilizar a marca FIFA no nome e foi lançado dia 30 de setembro de 2022.</p>
 
-                                <a class="btn btn-primary" href="#produto-3">ver produto</a>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver preços</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./imagens/persona5.avif" alt="Persona" class="img-fluid rounded">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Persona 5 Royal</h5>
+
+                                <p class="card-text desc">Persona 5 é um jogo eletrônico de RPG desenvolvido pela Atlus. O jogo é cronologicamente a sexta edição da série Persona, que faz parte principalmente da franquia Megami Tensei.</p>
+
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-4">Ver preços</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./imagens/skyrim.avif" alt="Skyrim" class="img-fluid rounded">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">The Elder Scrolls V: Skyrim Anniversary Edition</h5>
+
+                                <p class="card-text desc">Skyrim reimagina e revoluciona a fantasia épica de mundo aberto, trazendo à vida um mundo virtual completo à exploração da maneira que você preferir.</p>
+
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-5">Ver preços</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./imagens/minecraft.avif" alt="Minecraft" class="img-fluid rounded">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Minecraft Legends</h5>
+
+                                <p class="card-text desc">Minecraft Legends é um jogo de estratégia e ação desenvolvido por Mojang Studios e Blackbird Interactive e publicado por Xbox Game Studios.Ele é uma história derivada do Minecraft.</p>
+
+                                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal-6" disabled>Lançamento: 1ºSem de 2023</button>
+                                
                             </div>
                         </div>
 
@@ -109,7 +147,7 @@
                     <div class="col-md-6 col-sm-12">
                         <h2>Contato</h2>
 
-                        <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                        <p class="desc">Ficou interessado em nossos jogos? Preencha os campos do formulário para sugerir novas plataformas ou jogos a qual você não encontrou.</p>
                     </div>
 
                     <div class="col-md-6 col-sm-12">
@@ -124,10 +162,14 @@
                             </div>
 
                             <div class="input-group">
-                                <textarea class="form-control" name="" rows="5"></textarea>
+                                <input class="form-control" type="text" name="jogo" placeholder="Digite o jogo sugerido">
                             </div>
 
-                            <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="plataforma" placeholder="Digite a plataforma">
+                            </div>
+
+                            <button type="submit" class="btn btn-md btn-success">Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -141,33 +183,47 @@
                 <div class="modal-content">
                     
                     <div class="modal-header">
-                        <h5 class="modal-title">Produto 1</h5>
+                        <h5 class="modal-title">Crash Bandicoot 4: It's About Time</h5>
                         <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
 
                     <div class="modal-body">
-                        <h6>Confira o tamanho e os preços</h6>
+                        <h6>Confira as plataformas disponíveis e os preços:</h6>
                         
                         <table class="table table-hover table-striped">
                             <thead>
                                 <tr>
-                                    <th>Tamanho</th>
+                                    <th>Plataforma</th>
                                     <th>Valor</th>
+                                    <th>Comprar</th>
                                 </tr>
                             </thead>
                             
                             <tbody>
                                 <tr>
-                                    <td>P</td>
-                                    <td>R$ 100</td>
+                                    <td>Playstation PS4</td>
+                                    <td>R$ 149,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
                                 </tr>
                                 <tr>
-                                    <td>M</td>
-                                    <td>R$ 200</td>
+                                    <td>Playstation PS5</td>
+                                    <td>R$ 159,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
                                 </tr>
                                 <tr>
-                                    <td>G</td>
-                                    <td>R$ 300</td>
+                                    <td>Xbox One</td>
+                                    <td>R$ 159,00</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Xbox Series X|S</td>
+                                    <td>R$ 165,90</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Nintendo Switch</td>
+                                    <td>R$ 119,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info" >Escolher</button></td>
                                 </tr>
                             </tbody>
 
@@ -191,37 +247,239 @@
                 <div class="modal-content">
                     
                     <div class="modal-header">
-                        <h5 class="modal-title">Produto 2</h5>
+                        <h5 class="modal-title">Sonic Frontiers</h5>
                         <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
 
                     <div class="modal-body">
-                        <h6>Confira o tamanho e os preços</h6>
+                        <h6>Confira as plataformas disponíveis e os preços:</h6>
                         
                         <table class="table table-hover table-striped">
                             <thead>
                                 <tr>
-                                    <th>Tamanho</th>
+                                    <th>Plataforma</th>
                                     <th>Valor</th>
+                                    <th>Comprar</th>
                                 </tr>
                             </thead>
                             
                             <tbody>
                                 <tr>
-                                    <td>P</td>
-                                    <td>R$ 500</td>
+                                    <td>Playstation PS4</td>
+                                    <td>R$ 119,90</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
                                 </tr>
                                 <tr>
-                                    <td>M</td>
-                                    <td>R$ 600</td>
+                                    <td>Playstation PS5</td>
+                                    <td>R$ 129,90</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
                                 </tr>
                                 <tr>
-                                    <td>G</td>
-                                    <td>R$ 700</td>
+                                    <td>Xbox One</td>
+                                    <td>R$ 139,90</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
                                 </tr>
                                 <tr>
-                                    <td>GG</td>
-                                    <td>R$ 800</td>
+                                    <td>Xbox Series X|S</td>
+                                    <td>R$ 145,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Nintendo Switch</td>
+                                    <td>R$ 189,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info" >Escolher</button></td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modal-3">
+            
+            <div class="modal-dialog">
+                
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <h5 class="modal-title">EA Sports Fifa 23</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h6>Confira as plataformas disponíveis e os preços:</h6>
+                        
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Plataforma</th>
+                                    <th>Valor</th>
+                                    <th>Comprar</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <td>Playstation PS4</td>
+                                    <td>R$ 99,00</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Playstation PS5</td>
+                                    <td>R$ 99,00</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Xbox One</td>
+                                    <td>R$ 109,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Xbox Series X|S</td>
+                                    <td>R$ 119,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Nintendo Switch</td>
+                                    <td>R$ 149,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info" >Escolher</button></td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modal-4">
+            
+            <div class="modal-dialog">
+                
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <h5 class="modal-title">Persona 5 Royal</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h6>Confira as plataformas disponíveis e os preços:</h6>
+                        
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Plataforma</th>
+                                    <th>Valor</th>
+                                    <th>Comprar</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <td>Playstation PS4</td>
+                                    <td>R$ 229,00</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Playstation PS5</td>
+                                    <td>R$ 249,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Xbox One</td>
+                                    <td>R$ 399,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Xbox Series X|S</td>
+                                    <td>R$ 399,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Nintendo Switch</td>
+                                    <td>R$ 189,99</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info" >Escolher</button></td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modal-5">
+            
+            <div class="modal-dialog">
+                
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <h5 class="modal-title">The Elder Scrolls V: Skyrim Anniversary Edition</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h6>Confira as plataformas disponíveis e os preços:</h6>
+                        
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Plataforma</th>
+                                    <th>Valor</th>
+                                    <th>Comprar</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <td>Playstation PS4</td>
+                                    <td>R$ 109,00</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Playstation PS5</td>
+                                    <td>R$ 119,00</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Xbox One</td>
+                                    <td>R$ 109,00</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Xbox Series X|S</td>
+                                    <td>R$ 119,00</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info">Escolher</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Nintendo Switch</td>
+                                    <td>R$ 149,00</td>
+                                    <td><button type="submit" class="btn btn-sm btn-info" >Escolher</button></td>
                                 </tr>
                             </tbody>
 

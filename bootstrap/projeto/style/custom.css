@@ -11,3 +11,21 @@ input, textarea {
     float: left;
     margin: 5px;
 }
+
+#logo {
+    max-height: 80px;
+}
+
+.container {
+    position: relative;
+}
+  
+.nav {
+    position: absolute;
+    top: 50%;
+    transform: translate(180%, -50%);
+}
+
+.desc {
+    text-align: justify!important;
+}
