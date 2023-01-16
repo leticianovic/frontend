@@ -19,12 +19,6 @@ input, textarea {
 .container {
     position: relative;
 }
-  
-.nav {
-    position: absolute;
-    top: 50%;
-    transform: translate(180%, -50%);
-}
 
 .desc {
     text-align: justify!important;
