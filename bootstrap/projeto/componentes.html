@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/fontawesome/css/all.css">
     <link rel="stylesheet" href="./style/custom.css">
     <link rel="stylesheet" href="./style/custom-form.css">
 
@@ -74,6 +75,7 @@
                     just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
                     overflow.
                     <h5>Example heading <span class="badge bg-secondary">New</span></h5>
+                    
                 </div>
             </div>
         </div>
@@ -82,7 +84,8 @@
             <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
+                    <p>Accordion Item #3</p>
+                    
                 </button>
             </h2>
 
@@ -97,6 +100,7 @@
                     overflow.
                     <div class="alert alert-warning" role="alert">
                         A simple success alert—check it out!
+                        <i class="fa-solid fa-gamepad"></i>
                     </div>
                 </div>
             </div>
@@ -174,7 +178,7 @@
     </div>
 
     <div class="container">
-        <div class="bg-info clearfix"> <!-- clearfix: Criar quebra de linha -->
+        <div class="bg-dark clearfix bg-gradient bg-opacity-50 border-4"> <!-- clearfix: Criar quebra de linha -->
             <a name="" id="" class="btn btn-link float-start" href="#" role="button">Link</a>
             <a name="" id="" class="btn link-warning float-start" href="#" role="button">Link</a>
             <a name="" id="" class="btn btn-dark float-end" href="#" role="button">Botão</a>
@@ -182,7 +186,32 @@
         </div>
     </div>
 
-    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <i class="fa-solid fa-upload"></i>
+
+    <div class="list-group">
+        <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+        <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+        <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+        <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+    </div>
+
+    <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+    <span class="sr-only">Loading...</span>
+
+    <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+    <span class="sr-only">Loading...</span>
+
+    <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+    <span class="sr-only">Loading...</span>
+
+    <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+    <span class="sr-only">Loading...</span>
+
+    <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+    <span class="sr-only">Loading...</span>
+
+    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/fontawesome/js/all.min.js"></script>
     
     <script>
         var myCarouselElement = document.querySelector('#carouselExampleFade')
