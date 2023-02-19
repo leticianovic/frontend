@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/Leticia/Desktop/dev/projetos/frontend/bootstrap/projeto/cadastro.html",
+            "url": "file:///C:/Users/Leticia/Desktop/dev/projetos/frontend/bootstrap/projeto/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

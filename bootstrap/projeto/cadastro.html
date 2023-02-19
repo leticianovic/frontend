@@ -36,150 +36,228 @@
     </header>
 
     <section id="cadastro">
-        <div class="container container-fluid">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <h2>Cadastro</h2>
-                    <p class="desc">Faça seu cadastro para receber seus jogos em sua casa.</p>
+        <form class="row needs-validation" id="container-cadastro" novalidate>
+            <div class="container container-fluid object-fit-contain shadow p-3 mb-5 bg-body-tertiary border rounded">
+                <div class="row object-fit-contain border rounded colCadastro">
+                    <div class="col ">
+                        <h2>Cadastro</h2>
+                        <p class="desc">Faça seu cadastro para receber seus jogos em sua casa, ter  descontos e ganhar brindes.</p>
+                    </div>
                 </div>
-            </div>
 
-            <form class="form">
-                <div class="form-row">
-                    <div class="row">
-                        <div class="col">
-                            <div class="input-group">
-                                <input class="form-control" type="text" name="nome" id="nome"
-                                    placeholder="Digite seu nome">
-                            </div>
-                        </div>
+                <div class="row object-fit-contain border rounded colCadastro">
 
-                        <div class="col">
-                            <div class="input-group">
-                                <input class="form-control" type="text" name="email" id="email"
-                                    placeholder="Digite seu e-mail">
-                            </div>
-                        </div>
-                    </div>
+                    <form class="form formCadastro">
+                        <h4>Informações pessoais</h4>
 
-                    <div class="row">
-                        <div class="col">
-                            <label for="endereco">Endereço Completo</label>
-                            <input type="text" id="endereco" class="form-control" placeholder="Endereço completo">
-                        </div>
-                    </div>
+                        <div class="form-row colCadastro">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite seu primeiro nome" required>
 
-                    <div class="row">
-                        <div class="col">
-                            <label for="cidade">Cidade</label>
-                            <input type="text" name="cidade" id="cidade" class="form-control">
-                        </div>
+                                        <div class="invalid-feedback">Forneça um nome válido.</div>
+                                    </div>
+                                </div>
 
-                        <div class="col">
-                            <label for="estado">Estado</label>
-                            <select name="estado" id="estado" class="form-control">
-                                <option value="">Selecione o estado</option>
-                                <option value="ac">AC</option>
-                                <option value="al">AL</option>
-                                <option value="ap">AP</option>
-                                <option value="am">AM</option>
-                                <option value="ba">BA</option>
-                                <option value="ce">CE</option>
-                                <option value="es">ES</option>
-                                <option value="go">GO</option>
-                                <option value="ma">MA</option>
-                                <option value="mt">MT</option>
-                                <option value="ms">MS</option>
-                                <option value="mg">MG</option>
-                                <option value="pa">PA</option>
-                                <option value="pb">PB</option>
-                                <option value="pr">PR</option>
-                                <option value="pe">PE</option>
-                                <option value="pi">PI</option>
-                                <option value="rj">RJ</option>
-                                <option value="rn">RN</option>
-                                <option value="rs">RS</option>
-                                <option value="ro">RO</option>
-                                <option value="rr">RR</option>
-                                <option value="sc">SC</option>
-                                <option value="sp">SP</option>
-                                <option value="se">SE</option>
-                                <option value="to">TO</option>
-                                <option value="df">DF</option>
-                            </select>
-                        </div>
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" name="sobrenome"   id="sobrenome" placeholder="Digite seu último sobrenome"   required>
 
-                        <div class="col">
-                            <label for="cep">CEP</label> <!-- o "for" pega a info do id (no input)-->
-                            <input type="text" name="cep" id="cep" class="form-control">
-                        </div>
-
-                        <div class="row">
-                            <div class="col">
-                                <div class="form-check">
-                                    <input type="checkbox" name="promocionais" id="promocionais">
-                                    <label for="promocionais" class="form-check-label">Aceito receber mensagens
-                                        promocionais de jogos</label>
+                                        <div class="invalid-feedback">Forneça um sobrenome válido.</div>
+                                    </div>
                                 </div>
 
                             </div>
                         </div>
-                    </div>
 
-                    <button type="submit" class="btn btn-md btn-success">Cadastrar</button>
-                </div> <!-- end .form-row -->
+                        <div class="form-row colCadastro">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="tel" maxlength="10" name="telefone"  id="telefone" placeholder="Digite seu telefone" required>
 
-            </form>
+                                        <div class="invalid-feedback">Forneça um telefone válido.</div>
+                                    </div>
+                                </div>
 
-            <p><a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber
-                novidades</p>
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="tel" maxlength="11" name="celular"   id="celular" placeholder="Digite seu celular" required>
 
-        </div> <!-- end .container -->
-    </section>
+                                        <div class="invalid-feedback">Forneça um celular válido.</div>
+                                    </div>
+                                </div>
 
-    <div class="modal fade" id="modal-1">
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="date" name="data" id="txtdata_nasc" placeholder="Digite sua data de nascimento" required>
 
-        <div class="modal-dialog">
-
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <h5 class="modal-title">Inscrever-me na lista</h5>
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                <div class="modal-body">
-                    <h6>Preencha os campos para receber novidades e promoções</h6>
-
-                    <form class="form-inline">
-                        <div class="row">
-                            <div class="form-group col-4">
-                                <input type="text" class="form-control form-control-sm mb-2" name="nome"
-                                    placeholder="nome">
-                            </div>
-                            <div class="form-group col-4">
-                                <input type="text" class="form-control form-control-sm mb-2" name="e-mail"
-                                    placeholder="e-mail" required>
-                            </div>
-                            <div class="form-group form-control-sm col-4">
-                                <button type="submit" class="btn btn-success btn-sm">Receber novidades</button>
+                                        <div class="invalid-feedback">Forneça uma data de nascimento válida.</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
                     </form>
-
                 </div>
 
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary mb-2" data-bs-dismiss="modal">Fechar</button>
+                <div class="row object-fit-contain border rounded colCadastro">
+                    <form >
+                        <div class="form-row colCadastro">
+                            <div class="row">
+                                <h4>Login</h4>
+
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="email" name="email"   id="email" placeholder="Digite seu e-mail" required>
+
+                                        <div class="invalid-feedback">Forneça um email válido.</div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="password" name="password" id="password" placeholder="Digite sua senha" minlength="8" required>
+
+                                        <div class="invalid-feedback">Forneça uma senha válida.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </div>
 
-        </div>
+                <div class="row object-fit-contain border rounded colCadastro">
+                    <form >
+                        <div class="form-row colCadastro">
+                            <h4>Endereço</h4>
 
-    </div>
+                            <div class="row">
+
+                                <div class="col">
+                                    <select name="estado" id="estado" class="form-control" required>
+                                        <option value="">Selecione o tipo de endereço</option>
+                                        <option value="ac">Avenida</option>
+                                        <option value="al">Rua</option>
+                                        <option value="ap">Estrada</option>
+                                        <option value="am">Cruzamento</option>
+                                        <option value="ba">Rodovia</option>
+                                    </select>
+
+                                    <div class="invalid-feedback">Forneça um tipo de endereço válido.</div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="endereco"   placeholder="Digite seu endereço" required>
+
+                                        <div class="invalid-feedback">Forneça um endereço válido.</div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="number" min="0" id="numero" placeholder="Digite o número" required>
+
+                                        <div class="invalid-feedback">Forneça um número válido.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="complemento" placeholder="Digite o complemento">
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="bairro"     placeholder="Digite o bairro" required>
+
+                                        <div class="invalid-feedback">Forneça um bairro válido.</div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="input-group">
+                                        <input class="form-control" name="cep" id="cep"     placeholder="Digite o CEP" required pattern="\d{5}-\d{3}">
+
+                                        <div class="invalid-feedback">Forneça um CEP válido.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" name="cidade" id="cidade" class="form-control" placeholder="Digite sua cidade" required>
+
+                                    <div class="invalid-feedback">Forneça uma cidade válida.</div>
+                                </div>
+
+                                <div class="col">
+                                    <select name="estado" id="estado" class="form-control" required>
+                                        <option value="">Selecione o estado</option>
+                                        <option value="ac">AC</option>
+                                        <option value="al">AL</option>
+                                        <option value="ap">AP</option>
+                                        <option value="am">AM</option>
+                                        <option value="ba">BA</option>
+                                        <option value="ce">CE</option>
+                                        <option value="es">ES</option>
+                                        <option value="go">GO</option>
+                                        <option value="ma">MA</option>
+                                        <option value="mt">MT</option>
+                                        <option value="ms">MS</option>
+                                        <option value="mg">MG</option>
+                                        <option value="pa">PA</option>
+                                        <option value="pb">PB</option>
+                                        <option value="pr">PR</option>
+                                        <option value="pe">PE</option>
+                                        <option value="pi">PI</option>
+                                        <option value="rj">RJ</option>
+                                        <option value="rn">RN</option>
+                                        <option value="rs">RS</option>
+                                        <option value="ro">RO</option>
+                                        <option value="rr">RR</option>
+                                        <option value="sc">SC</option>
+                                        <option value="sp">SP</option>
+                                        <option value="se">SE</option>
+                                        <option value="to">TO</option>
+                                        <option value="df">DF</option>
+                                    </select>
+
+                                    <div class="invalid-feedback">Forneça um estado válido.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </form> <!-- end .form-row -->
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check" novalidate>
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                        Concorde com os termos e condições
+                        </label>
+
+                        <div class="invalid-feedback">
+                            Você deve aceitar os termos antes de se casdastrar.
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit" value="Validar" class="btn btn-md btn-success colCadastro">Cadastrar</button>
+                </div>
+
+            </div> <!-- end .container -->
+
+        </form>
+    </section>
     
     <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/script-cadastro.js"></script>
 </body>
 
 </html>

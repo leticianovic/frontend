@@ -1,15 +1,6 @@
-section {
-    padding: 4rem 0;
-}
-
-input, textarea {
-    margin-bottom: 1rem;
-}
-
-.card {
-    width: 32%;
-    float: left;
-    margin: 5px;
+/* cadastro.html & index.html*/
+.nav {
+    margin-top: revert!important;
 }
 
 #logo {
@@ -18,6 +9,48 @@ input, textarea {
 
 .container {
     position: relative;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+/* index.html */
+#button-cadastro {
+    background-color: #8C00DB;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+#button-cadastro:hover {
+    background-color: #FFF;
+    border-color: #8C00DB;
+    color: black!important;
+}
+
+#login:hover {
+    background-color: #16779F;
+    border-color: transparent;
+}
+
+.games {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+#bg-content, #bg-card {
+    border-radius: 1rem;
+    background-color: #16779F;
+}
+
+#carouselExampleFade {
+    width: 90%;
+    margin-left: 72px;
 }
 
 .desc {
@@ -38,4 +71,28 @@ input, textarea {
 .list-games-link {
     text-decoration: none;
     font-size: 1rem;
+}
+
+/* cadastro.html */
+#container-cadastro {
+    height: auto!important;
+    margin-left: 30px!important;
+    margin-right: 30px!important;
+}
+
+.colCadastro {
+    margin: 10px 5px 10px 5px!important;
+}
+
+.formCadastro {
+    padding-top: 10px!important;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
 }
